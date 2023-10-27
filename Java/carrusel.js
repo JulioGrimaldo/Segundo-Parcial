@@ -1,0 +1,1 @@
+$('#miCarrusel').carousel();

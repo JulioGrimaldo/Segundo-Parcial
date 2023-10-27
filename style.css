@@ -1,72 +1,68 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    
-    font-family: 'Pixelify Sans', sans-serif;
+/* Estilos generales para el Navbar */
+.navbar {
+    background-color: #333; /* Cambia el color de fondo según tus preferencias */
+    color: #fff; /* Cambia el color del texto */
+    padding: 0; /* Espaciado interior del Navbar */
 }
 
 .container {
-    max-width: 1400px;
-    margin: auto;
-    
-}
-html {
-    scroll-behavior: smooth;
-    
-}
-body{
-    background-color: #313435 ;    
-    transition: background-color 0.5s;
-
-}
-
-header {
-    background-color: #132D46;
-}
-
-
-header .container {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+}
+
+/* Estilos del logotipo del Navbar */
+
+.logo img {
+    width: 30%; /* Cambia el ancho máximo según el tamaño de tu imagen */
+    margin: 0;
+    padding: 5px;
+}
+.logo:hover {
+    text-decoration: none;
+}
+
+/* Estilos de los enlaces de navegación */
+.nav-links {
+    list-style: none;
+    display: flex;
     align-items: center;
 }
 
-header nav {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-bottom: 25px;
+.nav-links li {
+    margin-right: 20px;
 }
 
-header a {
-    padding: 5px 12px;
+.nav-links a {
+    color: #ff7d2d;
     text-decoration: none;
-    font-size: 20px;
-    
+}
+
+
+
+.nav-links a:hover {
+    text-decoration: underline;
     color: white;
 }
 
-header a:hover {
-    color: #ff7d2d;
-
+.carrusel{
+    margin-top: 50px;
 }
-.logo-rep{
-    max-width: 10%;
+/* Estilos personalizados para el contenedor del carrusel */
+#miCarrusel {
+    width: 70%; /* Reducir el ancho al 70% del ancho de la ventana del navegador */
+    height: auto;
+    margin: 0 auto; /* Centrar horizontalmente */
 }
 
-@media (min-width: 719px) {
-    header {
-        position: fixed;
-        width: 100%;
-    }
-    header .container {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    header nav {
-        flex-direction: row;
-        padding-bottom: 0;
-        padding-right: 20px;
-    }
+/* Estilos personalizados para las imágenes en el carrusel */
+.carousel-inner img {
+    width: 100%; /* Hacer que la imagen ocupe todo el ancho del carrusel */
+    height: auto; /* Ajustar la altura automáticamente para mantener la proporción */
 }
+/* Estilos personalizados para los botones del carrusel */
+.carousel-control-prev, .carousel-control-next {
+    width: 40%; /* Ajustar el ancho automáticamente según el contenido */
+    
+}
+
