@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reparacion de Computadoras</title>
+    <!--Fuente de google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Incluir Bootstrap a través de CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<!DOCTYPE html>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="/images/Logo.png" alt="Logo de Reparación de Computadoras">
+            </a>
+            <ul class="nav-ligas">
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/paginas/Servicios.html">Servicios</a></li>
+                <li><a href="/paginas/Precios.html">Precios</a></li>
+                <li><a href="/paginas/Contacto.html">Contacto</a></li>
+                <li><a href="Inicio.html">Inicio de Sesion</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="inicio">
+        <h1>Iniciar Sesión</h1>
+        <form id="login-form">
+            <div class="form-group">
+                <label for="usuario">Usuario:</label>
+                <input type="text" class="form-control" id="usuario" name="usuario" required>
+            </div>
+            <div class="form-group">
+                <label for="contrasena">Contraseña:</label>
+                <input type="password" class="form-control" id="contrasena" name="contrasena" required>
+            </div>
+            <button type="button" class="btn btn-primary" onclick="comprobarCredenciales()">Iniciar Sesión</button>
+        </form>
+        <br>
+        <h4 class="centro">User : Julio</h4>
+        <h4 class="centro">Password : 1234</h4>
+    </div>
+    <script src="/Java/validar.js"></script>
+    
+
+
+</body>
+
+</html>

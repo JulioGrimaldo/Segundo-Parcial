@@ -1,6 +1,9 @@
+*{
+    font-family: 'Fira Sans', sans-serif;
+}
 /* Estilos generales para el Navbar */
 .navbar {
-    background-color: #333; /* Cambia el color de fondo según tus preferencias */
+    background-color: #1d2730; /* Cambia el color de fondo según tus preferencias */
     color: #fff; /* Cambia el color del texto */
     padding: 0; /* Espaciado interior del Navbar */
 }
@@ -23,24 +26,23 @@
 }
 
 /* Estilos de los enlaces de navegación */
-.nav-links {
+.nav-ligas {
     list-style: none;
     display: flex;
     align-items: center;
 }
 
-.nav-links li {
+.nav-ligas li {
     margin-right: 20px;
 }
 
-.nav-links a {
+.nav-ligas a {
     color: #ff7d2d;
     text-decoration: none;
 }
 
 
-
-.nav-links a:hover {
+.nav-ligas a:hover {
     text-decoration: underline;
     color: white;
 }
@@ -58,11 +60,110 @@
 /* Estilos personalizados para las imágenes en el carrusel */
 .carousel-inner img {
     width: 100%; /* Hacer que la imagen ocupe todo el ancho del carrusel */
-    height: auto; /* Ajustar la altura automáticamente para mantener la proporción */
+     /* Ajustar la altura automáticamente para mantener la proporción */
 }
 /* Estilos personalizados para los botones del carrusel */
 .carousel-control-prev, .carousel-control-next {
     width: 40%; /* Ajustar el ancho automáticamente según el contenido */
-    
+    margin-top: 50px;
+   
 }
 
+/* Estilos para el modal */
+.modal {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 150px;
+    display: none; /* Oculta el modal por defecto */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro semitransparente */
+    z-index: 2;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    position:static;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.imagemodal {
+    max-width: auto;
+    max-height: 70vh; /* Ajusta la altura máxima según tu preferencia */
+}
+/* Aumenta el tamaño del botón de cierre */
+.close {
+    position: absolute;
+    top: 0;
+    right: 2px;
+    font-size: 35px; /* Aumenta el tamaño de fuente según tus preferencias */
+    cursor: pointer;
+}
+.contacto{
+    margin-top: 50px;
+}
+.inicio{
+    
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.centro{
+    text-align: center;
+}
+h1{
+    margin-top: 50px;
+    text-align: center;
+}
+p{
+    justify-content: center;
+    text-align: center;
+    margin-left: 15%;
+    margin-right:15%;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+h2{
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+}
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; /* Ajusta la altura según tus necesidades */
+}
+.calidad{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.calidad img{
+    max-width: 20%;
+    margin-bottom: 50px;
+}
+.footer {
+    background-color: #1d2730;
+    color: #ff7d2d;
+    padding: 20px;
+    text-align: center;
+    flex-direction: row;
+}

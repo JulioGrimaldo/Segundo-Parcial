@@ -1,0 +1,32 @@
+/* Estilos alternativos para la sección de Precios */
+.precio {
+    border: 1px solid #eee;
+    background-color: #1d2730;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.precio h3 {
+    font-size: 24px;
+    color: #ff7d2d;
+    margin-bottom: 10px;
+}
+
+.precio p {
+    font-size: 16px;
+    color: #b8b4b4;
+}
+
+.precio-texto {
+    font-size: 24px;
+    color: #007BFF;
+    font-weight: bold;
+}
+.precios{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
